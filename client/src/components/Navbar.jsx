@@ -2,18 +2,18 @@ import React from 'react'
 import logo from '../assets/logo.png'
 export default function Navbar() {
     return (
-        <nav className="flex items-center justify-between px-8 py-4  shadow-md">
+        <nav className="flex items-center justify-between px-20 py-4 w-full   shadow-md">
         {/* Logo Section */}
-        <div >
+        <div  className='w-[20%] '>
         <img
         src={logo} // Replace with the correct logo path
         alt="JPTEKS Logo"
-        className="w-[15%]"
+        className="w-[30%]"
         />
         </div>
         
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-6 w-[40%]">
         <a href="#" >Home</a>
         <a href="#">About Us</a>
         <a href="#">Services</a>
@@ -31,7 +31,7 @@ export default function Navbar() {
         </ul>
         
         {/* Call to Action and Language Button */}
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 w-[30%]">
         <button className="px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-700">
         Contact us for a project
         </button>
