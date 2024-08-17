@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Services</a>
-          <button className="flex items-center">
+          <button className="">
             More <span className="ml-1">▼</span>
           </button>
           <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 py-2">
@@ -31,11 +31,11 @@ const Navbar = () => {
       </ul>
 
       {/* Call to Action and Language Button */}
-      <div className="flex space-x-8">
+      <div className="">
         <button className="px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-700">
           Contact us for a project
         </button>
-        <button className="px-4 py-2 bg-blue-900 text-white rounded-md">
+        <button className="">
           EN
         </button>
       </div>
