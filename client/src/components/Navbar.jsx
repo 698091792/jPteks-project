@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.png'
 export default function Navbar() {
     return (
         <nav className="flex items-center justify-between px-8 py-4  shadow-md">
