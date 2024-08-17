@@ -13,11 +13,11 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul className="hidden md:flex space-x-6">
+      <div className=' '>
           <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#">Services</a>
-          <button className="">
+          <button className="bg-yellow-500">
             More <span className="ml-1">▼</span>
           </button>
           <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 py-2">
@@ -28,11 +28,11 @@ const Navbar = () => {
               Submenu 2
             </a>
           </div>
-      </ul>
+          </div>
 
       {/* Call to Action and Language Button */}
       <div className="">
-        <button className="px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-700">
+        <button className="">
           Contact us for a project
         </button>
         <button className="">
