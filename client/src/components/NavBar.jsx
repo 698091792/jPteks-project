@@ -21,10 +21,10 @@ const Navbar = () => {
             More <span className="ml-1">▼</span>
           </button>
           <div className="absolute hidden group-hover:block bg-white shadow-lg mt-2 py-2">
-            <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">
+            <a href="#">
               Submenu 1
             </a>
-            <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">
+            <a href="#">
               Submenu 2
             </a>
           </div>
