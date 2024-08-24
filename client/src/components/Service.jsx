@@ -2,15 +2,15 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 py-10 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row items-start justify-between mb-8">
+    <div className="h-screen py-10 px-4  ">
+      <div className="max-w-7xl mx-auto ">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-24">
           {/* H1 on the left side */}
-          <h1 className="text-4xl font-bold text-blue-900 md:text-left md:w-1/2">
+          <h1 className="text-4xl font-bold  md:text-left md:w-1/2 ">
             Realize Your Potential with Our Professional Web Development Services
           </h1>
           {/* P on the right side */}
-          <p className="text-lg text-gray-700 md:text-right md:w-1/2 mt-4 md:mt-0">
+          <p className="text-lg text-gray-700 md:w-1/2 mt-4 md:mt-0">
             At our company, we provide high-quality web development, SaaS development, and web tutoring services. 
             Our team of professionals is committed to assisting you in achieving your objectives and thriving in the 
             digital realm. Whether you require a remarkable website, a robust web application, or customized web tutoring, 
@@ -38,7 +38,7 @@ function App() {
 
 function ServiceCard({ title, description }) {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6">
+    <div className="border border-black  rounded-3xl p-6">
       <div className="flex items-center justify-center mb-4">
         <img src="/path-to-icon.png" alt="icon" className="w-12 h-12" />
       </div>
@@ -49,7 +49,7 @@ function ServiceCard({ title, description }) {
         {description}
       </p>
       <div className="text-center mt-4">
-        <a href="#" className="text-yellow-600 font-semibold">
+        <a href="#" className="text-white rounded-md px-6 py-3 font-semibold bg-yellow-600">
           Learn More &gt;
         </a>
       </div>

@@ -2,37 +2,37 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white space-y-16">
+    <div className="flex flex-col items-center justify-center h-96 ">
       
       {/* Accomplishments Section */}
-      <section className="text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Accomplishments</h2>
-        <div className="flex justify-center space-x-16">
+      <section className="text-center mb-24">
+        <h2 className="text-2xl font-bold text-gray-900 mb-20">Accomplishments</h2>
+        <div className="flex justify-center space-x-96 mb-">
           
           <div className="text-center">
             <div className="text-4xl font-bold text-yellow-500">10+</div>
             <img src="/path/to/your/saas-icon.svg" alt="SaaS Icon" className="mx-auto mt-2" />
-            <p className="text-xl font-semibold text-gray-900 mt-4">Realised projects</p>
+            <p className="text-xl font-extrabold text-gray-900 mt-4">Realised projects</p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold text-yellow-500">2</div>
             <img src="/path/to/your/saas-icon.svg" alt="SaaS Icon" className="mx-auto mt-2" />
-            <p className="text-xl font-semibold text-gray-900 mt-4">Consulted projects</p>
+            <p className="text-xl font-extrabold text-gray-900 mt-4">Consulted projects</p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold text-yellow-500">10+</div>
             <img src="/path/to/your/saas-icon.svg" alt="SaaS Icon" className="mx-auto mt-2" />
-            <p className="text-xl font-semibold text-gray-900 mt-4">Web Trainees</p>
+            <p className="text-xl font-extrabold text-gray-900 mt-4">Web Trainees</p>
           </div>
           
         </div>
       </section>
       
       {/* Testimonials Section */}
-      <section className="text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Testimonies</h2>
+      <section className="text-center mb-96 ">
+        <h2 className="text-2xl font-bold text-gray-900 ">Testimonies</h2>
         
         <div className="flex justify-center space-x-1 mb-4">
           <span className="text-2xl text-gray-800">&#9733;</span>
