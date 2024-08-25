@@ -1,13 +1,12 @@
 import { useState } from 'react';
+import Selection_010 from '../assets/Selection_010.png'; 
 
 const ImageGallery = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    'path/to/image1.png', // Replace with your image paths
-    'path/to/image2.png',
-    'path/to/image3.png',
-    'path/to/image4.png',
+    Selection_010,  // Reference the imported image
+    // Add more images as needed
   ];
 
   const totalSlides = images.length;
@@ -17,8 +16,9 @@ const ImageGallery = () => {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="max-w-lg">
+    <div className="flex flex-col items-center ">
+      <h2 className="text-2xl font-bold mb-4 ">Image Gallery</h2> {/* Title added */}
+      <div className="  ">
         <img
           src={images[currentSlide]}
           alt={`Slide ${currentSlide + 1}`}

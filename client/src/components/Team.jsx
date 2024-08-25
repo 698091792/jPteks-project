@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white space-y-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white space-y-8 pb-96">
       
       {/* Our Team Section */}
       <section className="text-center">
@@ -16,7 +16,7 @@ function App() {
             { name: "YEBGA RUBEN", title: "Co-Founder", email: "yebga@jpteks.cm", img: "/path/to/profile-placeholder.png" },
             { name: "NGOUNOUO SIMO", title: "Co-Founder", email: "pola@jpteks.cm", img: "/path/to/profile-placeholder.png" }
           ].map((member, index) => (
-            <div key={index} className="flex flex-col items-center bg-white border border-gray-300 p-4 rounded-lg shadow-lg max-w-xs">
+            <div key={index} className="flex flex-col items-center  border border-black p-6 rounded-lg ">
               <img src={member.img} alt={member.name} className="w-24 h-24 rounded-full mb-4" />
               <h3 className="text-lg font-bold text-gray-900">{member.name}</h3>
               <p className="text-sm text-gray-700">{member.title}</p>
@@ -34,7 +34,7 @@ function App() {
       </section>
       
       {/* Call to Action Button */}
-      <button className="bg-yellow-600 text-white font-semibold py-2 px-8 rounded-full shadow-lg hover:bg-yellow-700 focus:outline-none">
+      <button className="bg-yellow-600 text-white text-2xl font-extrabold py-8 px-16 rounded-xl  hover:bg-yellow-700 focus:outline-none">
         Wish to join team
       </button>
       
