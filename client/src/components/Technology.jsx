@@ -5,8 +5,8 @@ function App() {
     <div className="flex items-center justify-between h-screen pb-96">
       <div className="flex flex-col md:flex-row items-center max-w-5xl mx-auto">
         <div className="flex-shrink-0 mb-6 md:mb-0 animate-spin-slow">
-          <div className="w-80 h-80 bg-blue-900 rounded-full flex items-center justify-center animate-bounce">
-            <div className="w-48 h-48 bg-yellow-600 rounded-full flex items-center justify-center animate-pulse">
+          <div className="w-80 h-80 bg-blue-900 rounded-full flex items-center justify-center ">
+            <div className="w-48 h-48 bg-yellow-600 rounded-full flex items-center justify-center ">
               <div className="w-24 h-24 bg-blue-900 rounded-full"></div>
             </div>
           </div>

@@ -7,20 +7,24 @@ export default function Navbar() {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
+  const [toggle,setToggle]=useState(true)
+  const handleClick=()=>{
+      setToggle(!toggle)
+  }
 
   return (
-    <nav className="flex items-center justify-between px-20 py-4 w-full">
+    <nav className="flex items-center justify-between bg-white px-[10%] py-4  top-0 sticky z-[999]">
       {/* Logo Section */}
       <div className='w-[20%]'>
         <img
           src={logo} // Replace with the correct logo path
           alt="JPTEKS Logo"
-          className="w-[30%]"
+          className="w-[40%]"
         />
       </div>
 
       {/* Navigation Links */}
-      <ul className="hidden md:flex space-x-6 w-[40%] items-center">
+      <ul className="hidden md:flex space-x-6 w-[50%] items-center">
         <a href="#" className="hover:text-gray-700">Home</a>
         <a href="#" className="hover:text-gray-700">About Us</a>
         <a href="#" className="hover:text-gray-700">Services</a>
@@ -43,7 +47,7 @@ export default function Navbar() {
       </ul>
 
       {/* Call to Action and Language Button */}
-      <div className="flex space-x-8 w-[30%] items-center">
+      <div className="flex space-x-8 w-[40%] items-center">
         <button className="px-4 py-2 bg-yellow-500 text-white rounded-md hover:bg-yellow-600">
           Contact us for a project
         </button>
@@ -51,6 +55,7 @@ export default function Navbar() {
           EN
         </button>
       </div>
+      
     </nav>
   );
 }
