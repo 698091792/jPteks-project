@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body::-webkit-scrollbar{
-    overflow: hidden;
-
-}
+/* Hide scrollbars but allow scrolling */
+body {
+    overflow: hidden; /* Hide both vertical and horizontal scrollbars */
+  }
+  
+  body:hover {
+    overflow-y: scroll; /* Enable vertical scrolling on hover */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers like Chrome, Safari */
+  }
+  
+  
+  

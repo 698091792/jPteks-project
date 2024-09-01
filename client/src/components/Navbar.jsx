@@ -7,13 +7,9 @@ export default function Navbar() {
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
-  const [toggle,setToggle]=useState(true)
-  const handleClick=()=>{
-      setToggle(!toggle)
-  }
 
   return (
-    <nav className="flex items-center justify-between bg-white px-[10%] py-4  top-0 sticky z-[999]">
+    <nav className="flex items-center justify-between bg-white px-[10%] py-4 top-0 sticky z-[999]">
       {/* Logo Section */}
       <div className='w-[20%]'>
         <img
@@ -25,9 +21,9 @@ export default function Navbar() {
 
       {/* Navigation Links */}
       <ul className="hidden md:flex space-x-6 w-[50%] items-center">
-        <a href="#" className="hover:text-gray-700">Home</a>
-        <a href="#" className="hover:text-gray-700">About Us</a>
-        <a href="#" className="hover:text-gray-700">Services</a>
+        <a href="home" className="hover:text-gray-700">Home</a>
+        <a href="about-us" className="hover:text-gray-700">About Us</a>
+        <a href="#services" className="hover:text-gray-700">Services</a>
         
         {/* More Button with Dropdown */}
         <div className="relative">
@@ -39,8 +35,8 @@ export default function Navbar() {
           </button>
           {isDropdownOpen && (
             <div className="absolute left-0 mt-2 w-48 bg-white border rounded shadow-lg">
-              <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Gallery</a>
-              <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Project</a>
+              <a href="#gallery" className="block px-4 py-2 text-sm hover:bg-gray-100">Gallery</a>
+              <a href="#projects" className="block px-4 py-2 text-sm hover:bg-gray-100">Project</a>
             </div>
           )}
         </div>

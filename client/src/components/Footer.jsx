@@ -1,35 +1,46 @@
 import React from 'react';
+import linkedin from '../assets/linkedin.png';
+import face from '../assets/face.png'; 
+import insta from '../assets/insta.png'; 
+import whatsapp from '../assets/whatsapp.png'; 
+import download from '../assets/download.png'; 
+import location from '../assets/location.png'; 
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-10">
-      <div className="container mx-auto grid grid-cols-3 gap-8">
+    <footer className="bg-slate-900 text-white py-10">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Section */}
         <div>
           <h2 className="text-2xl font-bold mb-4">JPTEKS</h2>
           <p className="mb-4">IMPACT - INNOVATE - GROW</p>
           <div className="flex space-x-4 mb-4">
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-              <img src="path-to-linkedin-icon" alt="LinkedIn" className="w-6 h-6" />
+              <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
             </a>
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <img src="path-to-facebook-icon" alt="Facebook" className="w-6 h-6" />
+              <img src={face} alt="Facebook" className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <img src="path-to-instagram-icon" alt="Instagram" className="w-6 h-6" />
+            <a href="https://www.instagram.com/jpteks_2023?igsh=MThvZzQwbmNubXQ2aA==" target="_blank" rel="noopener noreferrer">
+              <img src={insta} alt="Instagram" className="w-6 h-6" />
             </a>
           </div>
           <div className="space-y-2">
             <div className="flex items-center">
-              <img src="path-to-whatsapp-icon" alt="WhatsApp" className="w-6 h-6 mr-2" />
-              <span>+237 651118070</span>
+              <img src={whatsapp} alt="WhatsApp" className="w-6 h-6 mr-2" />
+              <span>
+              + (237) 651 118 070 <br />
+              + (237) 679 845 608 <br />
+              + (237) 698 111 891 <br />
+              + (237) 698 091 792
+              </span>
             </div>
             <div className="flex items-center">
-              <img src="path-to-email-icon" alt="Email" className="w-6 h-6 mr-2" />
+              <img src={download} alt="Email" className="w-6 h-6 mr-2" />
               <span>contact@jpteks.cm</span>
             </div>
             <div className="flex items-center">
-              <img src="path-to-location-icon" alt="Location" className="w-6 h-6 mr-2" />
+              <img src={location} alt="Location" className="w-6 h-6 mr-2" />
               <span>Logbessou, Douala</span>
             </div>
           </div>
@@ -39,9 +50,9 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-bold mb-4">QUICK LINKS</h2>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:underline">Home</a></li>
-            <li><a href="#" className="hover:underline">About Us</a></li>
-            <li><a href="#" className="hover:underline">Our Services</a></li>
+            <li><a href="1" className="hover:underline">Home</a></li>
+            <li><a href="2" className="hover:underline">About Us</a></li>
+            <li><a href="3" className="hover:underline">Our Services</a></li>
             <li><a href="#" className="hover:underline">Achievements</a></li>
             <li><a href="#" className="hover:underline">Testimonies</a></li>
             <li><a href="#" className="hover:underline">Our Team</a></li>
