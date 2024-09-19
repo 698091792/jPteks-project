@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about_us": "À Propos",
+    "services": "Services",
+    "more": "Plus",
+    "gallery": "Galerie",
+    "projects": "Projets",
+    "contact_us": "Contactez-nous pour un projet"
+  },
+  "accomplishments": {
+    "title": "Réalisations",
+    "projects": "Projets réalisés",
+    "consulted_projects": "Projets consultés",
+    "trainees": "Stagiaires Web"
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "quote": "Notre expérience avec Edutek a été tout simplement exceptionnelle. Leurs solutions innovantes ont considérablement amélioré notre plateforme d'apprentissage en ligne et ont eu un impact significatif sur la réussite de nos étudiants.",
+    "person_name": "M. Philbert",
+    "person_title": "Fondateur, Group Scolaire les repères"
+  },
+  "carousel": {
+    "trainings": "FORMATIONS",
+    "trainings_description": "Développez votre potentiel tech avec nos formations pratiques en création de sites web et développement d'applications, conçues pour les adolescents et les adultes afin de développer des compétences concrètes et libérer la créativité !",
+    "web_development": "DÉVELOPPEMENT WEB",
+    "web_development_description": "Apprenez à créer des sites web réactifs en utilisant des technologies modernes telles que HTML, CSS et JavaScript.",
+    "app_development": "DÉVELOPPEMENT D'APPLICATIONS",
+    "app_development_description": "Plongez dans le monde des applications mobiles avec notre formation complète en développement Android et iOS.",
+    "learn_more": "En savoir plus",
+    "discover_more": "Découvrir plus"
+  },
+  "contact_form": {
+    "contact_us": "Veuillez ne pas hésiter à nous contacter pour plus d'assistance.",
+    "address": "Logbessou, Douala",
+    "start_project": "Commençons un projet ensemble",
+    "name": "Nom*",
+    "phone": "Numéro de téléphone*",
+    "email": "Email*",
+    "category": "Catégorie",
+    "project_description": "Je souhaite une application web pour gérer ...",
+    "submit": "SOUMETTRE LE PROJET"
+  },
+  "footer": {
+    "company_name": "JPTEKS",
+    "slogan": "IMPACT - INNOVER - CROÎTRE",
+    "email": "contact@jpteks.cm",
+    "address": "Logbessou, Douala",
+    "quick_links_title": "LIENS RAPIDES",
+    "home": "Accueil",
+    "about_us": "À propos de nous",
+    "services": "Nos Services",
+    "achievements": "Réalisations",
+    "testimonials": "Témoignages",
+    "team": "Notre Équipe",
+    "gallery": "Galerie",
+    "contact_us": "Contactez-nous",
+    "subscribe_title": "Veuillez vous abonner",
+    "subscribe_description": "Rejoignez notre newsletter pour rester informé des nouvelles fonctionnalités et versions.",
+    "email_placeholder": "votre e-mail",
+    "subscribe_button": "S'abonner",
+    "subscribe_notice": "En vous abonnant, vous acceptez notre politique de confidentialité et donnez votre consentement pour recevoir des mises à jour de notre entreprise.",
+    "rights_reserved": "Tous droits réservés"
+  },
+  "gallery": {
+    "title": "Galerie d'Images"
+  },
+  "app": {
+    "header": "Réalisez votre potentiel avec nos services professionnels de développement web",
+    "description": "Dans notre entreprise, nous fournissons des services de développement web, de développement SaaS et de tutorat web de haute qualité. Notre équipe de professionnels est déterminée à vous aider à atteindre vos objectifs et à prospérer dans le domaine numérique. Que vous ayez besoin d'un site web remarquable, d'une application web robuste ou d'un tutorat web personnalisé, nous possédons les connaissances et les compétences nécessaires pour offrir des résultats exceptionnels.",
+    "learn_more": "En savoir plus >"
+  },
+  "services": {
+    "saas_title": "Services de développement SaaS adaptés à vos besoins spécifiques",
+    "saas_description": "Nous nous spécialisons dans le développement de solutions SaaS innovantes et évolutives visant à aider les établissements éducatifs à rationaliser leurs opérations et à favoriser leur croissance.",
+    "tutoring_title": "Améliorez vos compétences grâce à un tutorat en ligne personnalisé",
+    "tutoring_description": "Nos services de tutorat en ligne sont conçus pour vous aider à maîtriser les concepts et techniques de développement web, vous permettant ainsi de créer des sites web professionnels en toute confiance.",
+    "webdev_title": "Services de développement web professionnels pour votre entreprise",
+    "webdev_description": "Nous proposons des solutions de développement web personnalisées conçues pour répondre aux besoins spécifiques de votre entreprise, vous permettant d'établir une présence en ligne puissante et de réussir."
+  }
+}

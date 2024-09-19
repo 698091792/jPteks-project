@@ -1,22 +1,26 @@
 import React from 'react';
+import sa from '../assets/sa.png';
 
 function App() {
   return (
-    <div className="h-screen py-10 px-4  ">
-      <div className="max-w-7xl mx-auto ">
-        <div className="flex flex-col md:flex-row items-center justify-between mb-24">
-          {/* H1 on the left side */}
-          <h1 className="text-4xl font-bold  md:text-left md:w-1/2 ">
+    <div className="min-h-screen px-4 py-8">
+      <div className="max-w-7xl mx-auto">
+        {/* Header Section */}
+        <div className="flex flex-col md:flex-row items-center justify-between mb-16 md:mb-24">
+          {/* Heading on the left side */}
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 text-center md:text-left md:w-1/2">
             Realize Your Potential with Our Professional Web Development Services
           </h1>
-          {/* P on the right side */}
-          <p className="text-lg text-gray-700 md:w-1/2 mt-4 md:mt-0">
+          {/* Description on the right side */}
+          <p className="text-base md:text-lg text-gray-700 md:w-1/2 mt-4 md:mt-0">
             At our company, we provide high-quality web development, SaaS development, and web tutoring services. 
             Our team of professionals is committed to assisting you in achieving your objectives and thriving in the 
             digital realm. Whether you require a remarkable website, a robust web application, or customized web tutoring, 
             we possess the knowledge and skill to deliver outstanding outcomes.
           </p>
         </div>
+
+        {/* Service Cards Section */}
         <div className="grid gap-6 md:grid-cols-3">
           <ServiceCard 
             title="Tailored SaaS Development Services to Meet Your Specific Requirements"
@@ -38,18 +42,18 @@ function App() {
 
 function ServiceCard({ title, description }) {
   return (
-    <div className="border border-black  rounded-3xl p-6">
+    <div className="border border-gray-300 rounded-2xl p-6 shadow-lg transition-transform transform hover:scale-105">
       <div className="flex items-center justify-center mb-4">
-        <img src="/path-to-icon.png" alt="icon" className="w-12 h-12" />
+        <img src={sa} alt="Service icon" className="w-16 h-16 md:w-20 md:h-20" />
       </div>
-      <h2 className="text-xl font-semibold text-gray-800 mb-2 text-center">
+      <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-2 text-center">
         {title}
       </h2>
-      <p className="text-gray-600 text-center">
+      <p className="text-gray-600 text-center mb-4">
         {description}
       </p>
-      <div className="text-center mt-4">
-        <a href="#" className="text-white rounded-md px-6 py-3 font-semibold bg-yellow-600">
+      <div className="text-center">
+        <a href="#" className="text-white rounded-md px-6 py-2 font-semibold bg-yellow-600 hover:bg-yellow-700 transition">
           Learn More &gt;
         </a>
       </div>

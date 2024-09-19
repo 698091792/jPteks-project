@@ -1,38 +1,42 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // Import the translation hook
+import sa from '../assets/sa.png';
 
 function App() {
+  const { t } = useTranslation(); // Get the translation function
+
   return (
-    <div className="flex flex-col items-center justify-center h-96 ">
+    <div className="flex flex-col items-center justify-center px-4 py-8 bg-white">
       
       {/* Accomplishments Section */}
-      <section className="text-center mb-24">
-        <h2 className="text-2xl font-bold text-gray-900 mb-20">Accomplishments</h2>
-        <div className="flex justify-center space-x-96 mb-">
+      <section className="text-center mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('accomplishments.title')}</h2>
+        <div className="flex flex-wrap justify-center gap-8">
           
-          <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-500">10+</div>
-            <img src="/path/to/your/saas-icon.svg" alt="SaaS Icon" className="mx-auto mt-2" />
-            <p className="text-xl font-extrabold text-gray-900 mt-4">Realised projects</p>
+          <div className="text-center flex flex-col items-center">
+            <img src={sa} alt="SaaS Icon" className="w-16 h-16 mb-2" />
+            <div className="text-3xl font-bold text-yellow-500">10+</div>
+            <p className="text-lg font-extrabold text-gray-900 mt-4">{t('accomplishments.projects')}</p>
           </div>
           
-          <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-500">2</div>
-            <img src="/path/to/your/saas-icon.svg" alt="SaaS Icon" className="mx-auto mt-2" />
-            <p className="text-xl font-extrabold text-gray-900 mt-4">Consulted projects</p>
+          <div className="text-center flex flex-col items-center">
+            <img src={sa} alt="SaaS Icon" className="w-16 h-16 mb-2" />
+            <div className="text-3xl font-bold text-yellow-500">2</div>
+            <p className="text-lg font-extrabold text-gray-900 mt-4">{t('accomplishments.consulted_projects')}</p>
           </div>
           
-          <div className="text-center">
-            <div className="text-4xl font-bold text-yellow-500">10+</div>
-            <img src="/path/to/your/saas-icon.svg" alt="SaaS Icon" className="mx-auto mt-2" />
-            <p className="text-xl font-extrabold text-gray-900 mt-4">Web Trainees</p>
+          <div className="text-center flex flex-col items-center">
+            <img src={sa} alt="SaaS Icon" className="w-16 h-16 mb-2" />
+            <div className="text-3xl font-bold text-yellow-500">10+</div>
+            <p className="text-lg font-extrabold text-gray-900 mt-4">{t('accomplishments.trainees')}</p>
           </div>
           
         </div>
       </section>
       
       {/* Testimonials Section */}
-      <section className="text-center mb-96 ">
-        <h2 className="text-2xl font-bold text-gray-900 ">Testimonies</h2>
+      <section className="text-center mb-12">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">{t('testimonials.title')}</h2>
         
         <div className="flex justify-center space-x-1 mb-4">
           <span className="text-2xl text-gray-800">&#9733;</span>
@@ -42,15 +46,15 @@ function App() {
           <span className="text-2xl text-gray-800">&#9733;</span>
         </div>
         
-        <p className="text-gray-700 max-w-xl mx-auto mb-4">
-          Our experience with Edutek has been nothing short of exceptional. Their innovative solutions have greatly improved our online learning platform and have made a significant impact on our students' success.
+        <p className="text-gray-700 max-w-xl mx-auto mb-4 px-4">
+          {t('testimonials.quote')}
         </p>
         
-        <div className="flex items-center justify-center mb-4">
-          <img src="/path/to/profile-pic.jpg" alt="Mr Philbert" className="w-12 h-12 rounded-full mr-4" />
+        <div className="flex flex-col md:flex-row items-center justify-center mb-4">
+          <img src="/path/to/profile-pic.jpg" alt={t('testimonials.person_name')} className="w-16 h-16 rounded-full mb-4 md:mb-0 md:mr-4" />
           <div className="text-left">
-            <p className="font-bold text-gray-900">Mr Philbert</p>
-            <p className="text-gray-600">Founder, Group Scolaire les reperes</p>
+            <p className="font-bold text-gray-900">{t('testimonials.person_name')}</p>
+            <p className="text-gray-600">{t('testimonials.person_title')}</p>
           </div>
         </div>
         
@@ -66,3 +70,4 @@ function App() {
 }
 
 export default App;
+

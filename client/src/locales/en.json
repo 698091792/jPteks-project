@@ -1,0 +1,83 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about_us": "About Us",
+    "services": "Services",
+    "more": "More",
+    "gallery": "Gallery",
+    "projects": "Projects",
+    "contact_us": "Contact us for a project"
+  },
+  "accomplishments": {
+    "title": "Accomplishments",
+    "projects": "Realised projects",
+    "consulted_projects": "Consulted projects",
+    "trainees": "Web Trainees"
+  },
+  "testimonials": {
+    "title": "Testimonies",
+    "quote": "Our experience with Edutek has been nothing short of exceptional. Their innovative solutions have greatly improved our online learning platform and have made a significant impact on our students' success.",
+    "person_name": "Mr Philbert",
+    "person_title": "Founder, Group Scolaire les reperes"
+  },
+  "carousel": {
+    "trainings": "TRAININGS",
+    "trainings_description": "Unlock your tech potential with our hands-on training in website creation and app development, designed for teens and adults to build real-world skills and unleash creativity!",
+    "web_development": "WEB DEVELOPMENT",
+    "web_development_description": "Learn how to build responsive websites using modern technologies like HTML, CSS, and JavaScript.",
+    "app_development": "APP DEVELOPMENT",
+    "app_development_description": "Dive into the world of mobile apps with our comprehensive training in Android and iOS development.",
+    "learn_more": "Learn More",
+    "discover_more": "Discover More"
+  },
+  "contact_form": {
+    "contact_us": "Please do not hesitate to contact us for further assistance.",
+    "address": "Logbessou, Douala",
+    "start_project": "Let's start a project together",
+    "name": "Name*",
+    "phone": "Phone Number*",
+    "email": "Email*",
+    "category": "Category",
+    "project_description": "I wish a web app to manage ...",
+    "submit": "SUBMIT PROJECT"
+  },
+
+  "footer": {
+    "company_name": "JPTEKS",
+    "slogan": "IMPACT - INNOVATE - GROW",
+    "email": "contact@jpteks.cm",
+    "address": "Logbessou, Douala",
+    "quick_links_title": "QUICK LINKS",
+    "home": "Home",
+    "about_us": "About Us",
+    "services": "Our Services",
+    "achievements": "Achievements",
+    "testimonials": "Testimonies",
+    "team": "Our Team",
+    "gallery": "Gallery",
+    "contact_us": "Contact Us",
+    "subscribe_title": "Please Subscribe",
+    "subscribe_description": "Join our newsletter to stay updated on new features and releases.",
+    "email_placeholder": "your email",
+    "subscribe_button": "Subscribe",
+    "subscribe_notice": "By subscribing, you are acknowledging your agreement to our Privacy Policy and providing consent to receive updates from our company.",
+    "rights_reserved": "All Rights Reserved"
+  },
+  "gallery": {
+    "title": "Image Gallery"
+  },
+
+  "app": {
+    "header": "Realize Your Potential with Our Professional Web Development Services",
+    "description": "At our company, we provide high-quality web development, SaaS development, and web tutoring services. Our team of professionals is committed to assisting you in achieving your objectives and thriving in the digital realm. Whether you require a remarkable website, a robust web application, or customized web tutoring, we possess the knowledge and skill to deliver outstanding outcomes.",
+    "learn_more": "Learn More >"
+  },
+  "services": {
+    "saas_title": "Tailored SaaS Development Services to Meet Your Specific Requirements",
+    "saas_description": "We specialize in the development of innovative and scalable SaaS solutions aimed at helping educational institutions streamline their operations and promote growth.",
+    "tutoring_title": "Improve Your Skills through Personalized Online Tutoring",
+    "tutoring_description": "Our online tutoring services are crafted to assist you in mastering web development concepts and techniques, enabling you to confidently create professional websites.",
+    "webdev_title": "Professional Web Development Services for Your Business",
+    "webdev_description": "We provide customized web development solutions designed to meet your business's specific needs, enabling you to establish a powerful online presence and achieve success."
+  }
+}
