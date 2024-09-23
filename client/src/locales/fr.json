@@ -41,6 +41,21 @@
     "project_description": "Je souhaite une application web pour gérer ...",
     "submit": "SOUMETTRE LE PROJET"
   },
+  "solution":{
+    "title": "Faire progresser l’éducation grâce aux solutions technologiques",
+    "description": "Au sein de notre organisation, nous envisageons un avenir où l’éducation est accessible à tous, grâce à une technologie de pointe. Nous nous engageons à exploiter les dernières avancées technologiques pour créer des solutions logicielles en tant que service (SaaS), des sites Web et des applications Web innovants qui transforment le paysage de l'apprentissage et de l'enseignement. Notre équipe se consacre à la recherche continue et à la mise en œuvre de nouvelles technologies pour améliorer continuellement l'expérience éducative des étudiants, des éducateurs et des apprenants permanents du monde entier."
+  },
+  "service":{
+    "title": "Réalisez votre potentiel avec nos services de développement Web professionnels",
+    "description": "Dans notre entreprise, nous fournissons des services de développement Web, de développement SaaS et de tutorat Web de haute qualité. Notre équipe de professionnels s’engage à vous aider à atteindre vos objectifs et à prospérer dans le domaine numérique. Que vous ayez besoin d'un site Web remarquable, d'une application Web robuste ou d'un tutorat Web personnalisé, nous possédons les connaissances et les compétences nécessaires pour fournir des résultats exceptionnels.",
+    "title1":"Services de développement SaaS sur mesure pour répondre à vos besoins spécifiques",
+    "description1":"Nous nous spécialisons dans le développement de solutions SaaS innovantes et évolutives visant à aider les établissements éducatifs à rationaliser leurs opérations et à optimiser leurs processus de formation. Nos solutions SaaS sont conçues pour répondre aux besoins spécifiques de chaque établissement, et nous nous engageons à fournir des solutions fiables et performantes.",
+    "title3":"Développement d'applications web robustes et performantes",
+    "description3":"Nous proposons des services de développement d'applications web robustes et performantes, conçus pour répondre aux besoins spécifiques de chaque entreprise. Nos solutions web sont conçues pour répondre aux exigences de la vie quotidienne des utilisateurs, et nous nous engageons à fournir des solutions fiables et performantes.",
+    "title2":"Tutorat web personnalisé pour les étudiants",
+    "description2":"Nous offrons un service de tutorat web personnalisé pour les étudiants. Nos tutorats sont conçus pour répondre aux exigences spécifiques de chaque étudiant, et nous nous engageons à fournir des solutions fiables et performantes.",
+    "learn_more":"En savoir plus >"
+  },
   "footer": {
     "company_name": "JPTEKS",
     "slogan": "IMPACT - INNOVER - CROÎTRE",
@@ -77,5 +92,9 @@
     "tutoring_description": "Nos services de tutorat en ligne sont conçus pour vous aider à maîtriser les concepts et techniques de développement web, vous permettant ainsi de créer des sites web professionnels en toute confiance.",
     "webdev_title": "Services de développement web professionnels pour votre entreprise",
     "webdev_description": "Nous proposons des solutions de développement web personnalisées conçues pour répondre aux besoins spécifiques de votre entreprise, vous permettant d'établir une présence en ligne puissante et de réussir."
+  },
+  "Technology":{
+    "title":"Réaliser le potentiel de la technologie éducative pour un avenir prometteur",
+    "description":"Nos services offrent une efficacité, une convivialité et une rentabilité accrues, responsabilisant ainsi les éducateurs et les apprenants."
   }
 }

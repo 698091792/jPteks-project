@@ -5,14 +5,14 @@ const ContactForm = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex flex-col items-center min-h-screen p-4 bg-gray-100">
-      <div className="bg-white p-8 max-w-4xl w-full mx-auto flex flex-col lg:flex-row">
+    <section className="flex flex-col  bg-gray-100 mb-10" data-aos="fade-in" data-aos-duration="1000" data-aos-easing="ease-in">
+      <div className="bg-white p-8 w-full flex flex-col lg:flex-row">
         {/* Contact Information */}
         <div className="w-full lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
           <h2 className="text-xl font-semibold text-blue-900 mb-4">
             {t('contact_form.contact_us')}
           </h2>
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -22,7 +22,7 @@ const ContactForm = () => {
             </svg>
             <span className="text-blue-900">jpteks728@gmail.com</span>
           </div>
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -32,12 +32,9 @@ const ContactForm = () => {
             </svg>
             <span className="text-blue-900">
               + (237) 651 118 070 <br />
-              + (237) 679 845 608 <br />
-              + (237) 698 111 891 <br />
-              + (237) 698 091 792
             </span>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center mb-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 384 512"
@@ -58,26 +55,22 @@ const ContactForm = () => {
             <input
               type="text"
               placeholder={t('contact_form.name')}
-              className="border border-gray-300 p-2 rounded-md"
+              className="border border-gray-300 p-2 rounded-md outline-none"
             />
             <input
               type="text"
               placeholder={t('contact_form.phone')}
-              className="border border-gray-300 p-2 rounded-md"
+              className="border border-gray-300 p-2 rounded-md outline-none"
             />
             <input
               type="email"
               placeholder={t('contact_form.email')}
-              className="border border-gray-300 p-2 rounded-md col-span-2"
+              className="border border-gray-300 p-2 rounded-md col-span-2 outline-none"
             />
-            <input
-              type="text"
-              placeholder={t('contact_form.category')}
-              className="border border-gray-300 p-2 rounded-md"
-            />
+          
             <textarea
               placeholder={t('contact_form.project_description')}
-              className="border border-gray-300 p-2 rounded-md col-span-2 h-32"
+              className="border border-gray-300 p-2 rounded-md col-span-2 h-32 outline-none"
             ></textarea>
             <button
               type="submit"
@@ -88,7 +81,7 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

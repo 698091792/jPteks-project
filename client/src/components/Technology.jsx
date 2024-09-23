@@ -1,8 +1,9 @@
 import React from 'react';
-
-function App() {
+import { useTranslation } from 'react-i18next';
+function Technology() {
+  const { t } = useTranslation();
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100 pb-16">
+    <section className="flex items-center justify-center h-screen bg-gray-100 pb-16">
       <div className="flex flex-col md:flex-row items-center max-w-5xl mx-auto px-4">
         <div className="flex-shrink-0 mb-6 md:mb-0">
           <div className="w-80 h-80 bg-blue-900 rounded-full flex items-center justify-center">
@@ -12,17 +13,16 @@ function App() {
           </div>
         </div>
         <div className="md:ml-12 text-center md:text-left">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4 animate-fadeIn">
-            Realizing the Potential of Educational Technology for a Promising Future
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in">
+          {t('Technology.title')} 
           </h2>
-          <p className="text-gray-600 animate-slideUp">
-            Our services provide enhanced efficiency, user-friendliness, and cost-effectiveness,
-            empowering educators and learners alike.
+          <p className="text-gray-600 "  data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in">
+          {t('Technology.description')} 
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default App;
+export default Technology;

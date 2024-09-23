@@ -3,10 +3,11 @@ import linkedin from '../assets/linkedin.png';
 import face from '../assets/face.png'; 
 import insta from '../assets/insta.png'; 
 import whatsapp from '../assets/whatsapp.png'; 
-import download from '../assets/download.png'; 
 import location from '../assets/location.png'; 
-
+import { GiMailbox } from 'react-icons/gi'; // Ensure correct icon import
+import { useTranslation } from 'react-i18next';
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="bg-slate-900 text-white py-10">
       <div className="container mx-auto px-4">
@@ -22,7 +23,7 @@ const Footer = () => {
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                 <img src={face} alt="Facebook" className="w-6 h-6" />
               </a>
-              <a href="https://www.instagram.com/jpteks_2023?igsh=MThvZzQwbmNubXQ2aA==" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/jpteks_2023" target="_blank" rel="noopener noreferrer">
                 <img src={insta} alt="Instagram" className="w-6 h-6" />
               </a>
             </div>
@@ -30,14 +31,17 @@ const Footer = () => {
               <div className="flex items-center">
                 <img src={whatsapp} alt="WhatsApp" className="w-6 h-6 mr-2" />
                 <span className="text-sm lg:text-base">
-                  + (237) 651 118 070 <br />
-                  + (237) 679 845 608 <br />
-                  + (237) 698 111 891 <br />
-                  + (237) 698 091 792
+                  + (237) 651 118 070
                 </span>
               </div>
               <div className="flex items-center">
-                <img src={download} alt="Email" className="w-6 h-6 mr-2" />
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              className="w-6 h-6 text-blue-900 mr-2"
+            >
+              <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+            </svg>
                 <span className="text-sm lg:text-base">contact@jpteks.cm</span>
               </div>
               <div className="flex items-center">
@@ -49,43 +53,43 @@ const Footer = () => {
 
           {/* Center Section */}
           <div>
-            <h2 className="text-xl font-bold mb-4">QUICK LINKS</h2>
+            <h2 className="text-xl font-bold mb-4">{t('footer.quick_links_title')}</h2>
             <ul className="space-y-2 text-sm lg:text-base">
-              <li><a href="1" className="hover:underline">Home</a></li>
-              <li><a href="2" className="hover:underline">About Us</a></li>
-              <li><a href="3" className="hover:underline">Our Services</a></li>
-              <li><a href="#" className="hover:underline">Achievements</a></li>
-              <li><a href="#" className="hover:underline">Testimonies</a></li>
-              <li><a href="#" className="hover:underline">Our Team</a></li>
-              <li><a href="#" className="hover:underline">Gallery</a></li>
-              <li><a href="#" className="hover:underline">Contact Us</a></li>
+              <li><a href="1" className="hover:underline">{t('footer.home')}</a></li>
+              <li><a href="2" className="hover:underline">{t('footer.about_us')}</a></li>
+              <li><a href="3" className="hover:underline">{t('footer.services')}</a></li>
+              <li><a href="#" className="hover:underline">{t('footer.achievements')}</a></li>
+              <li><a href="#" className="hover:underline">{t('footer.testimonials')}</a></li>
+              <li><a href="#" className="hover:underline">{t('footer.team')}</a></li>
+              <li><a href="#" className="hover:underline">{t('footer.gallery')}</a></li>
+              <li><a href="#" className="hover:underline">{t('footer.contact_us')}</a></li>
             </ul>
           </div>
 
           {/* Right Section */}
           <div>
-            <h2 className="text-xl font-bold mb-4">Please Subscribe</h2>
-            <p className="mb-4">Join our newsletter to stay updated on new features and releases.</p>
+            <h2 className="text-xl font-bold mb-4">{t('footer.subscribe_title')}</h2>
+            <p className="mb-4">{t('footer.subscribe_description')}</p>
             <form className="flex flex-col sm:flex-row items-center mb-4">
               <input
                 type="email"
-                placeholder="your email"
-                className="p-2 w-full sm:w-auto rounded-md border-none focus:outline-none mb-2 sm:mb-0 sm:rounded-l-md"
+                placeholder={t('footer.email_placeholder')}
+                className="p-2 w-full text-black sm:w-auto rounded-tl-md rounded-bl-md border-none focus:outline-none mb-2 sm:mb-0 sm:rounded-l-md"
               />
               <button
                 type="submit"
-                className="bg-yellow-600 text-white px-4 py-2 rounded-md hover:bg-yellow-700"
+                className="bg-yellow-600 text-white px-4 py-2 rounded-tr-md rounded-br-md hover:bg-yellow-700"
               >
-                Subscribe
+               {t('footer.subscribe_button')}
               </button>
             </form>
             <p className="text-xs lg:text-sm">
-              By subscribing, you are acknowledging your agreement to our Privacy Policy and providing consent to receive updates from our company.
+            {t('footer.subscribe_notice')}
             </p>
           </div>
         </div>
         <div className="text-center mt-8 text-sm">
-          <p>© 2024 JPTEKS. All Rights Reserved</p>
+          <p>© 2024 JPTEKS. {t('footer.rights_reserved')}</p>
         </div>
       </div>
     </footer>

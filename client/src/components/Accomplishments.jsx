@@ -6,10 +6,10 @@ function App() {
   const { t } = useTranslation(); // Get the translation function
 
   return (
-    <div className="flex flex-col items-center justify-center px-4 py-8 bg-white">
+    <div className="flex flex-col items-center justify-center px-4 pt-10 bg-white">
       
       {/* Accomplishments Section */}
-      <section className="text-center mb-12">
+      <section className="text-center mb-2"data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in">
         <h2 className="text-2xl font-bold text-gray-900 mb-8">{t('accomplishments.title')}</h2>
         <div className="flex flex-wrap justify-center gap-8">
           
@@ -35,10 +35,10 @@ function App() {
       </section>
       
       {/* Testimonials Section */}
-      <section className="text-center mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">{t('testimonials.title')}</h2>
+      <section className="text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in">
+        <h2 className="text-2xl font-bold text-gray-900 ">{t('testimonials.title')}</h2>
         
-        <div className="flex justify-center space-x-1 mb-4">
+        <div className="flex justify-center space-x-1 mb-2">
           <span className="text-2xl text-gray-800">&#9733;</span>
           <span className="text-2xl text-gray-800">&#9733;</span>
           <span className="text-2xl text-gray-800">&#9733;</span>

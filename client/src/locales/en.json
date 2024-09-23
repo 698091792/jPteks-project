@@ -41,6 +41,21 @@
     "project_description": "I wish a web app to manage ...",
     "submit": "SUBMIT PROJECT"
   },
+  "solution":{
+    "title": "Advancing Education with Technology Solutions",
+    "description": "At our organization, we envision a future where education is accessible to all, empowered by leading-edge technology. We are dedicated to harnessing the latest advancements in technology to create innovative software-as-a-service (SaaS) solutions, websites, and web apps that transform the learning and teaching landscape. Our team is devoted to ongoing research and implementation of new technologies to continuously improve the educational experience for students, educators, and lifelong learners globally."
+  },
+  "service":{
+    "title":"Realize Your Potential with Our Professional Web Development Services",
+    "description":"At our company, we provide high-quality web development, SaaS development, and web tutoring services. Our team of professionals is committed to assisting you in achieving your objectives and thriving in the digital realm. Whether you require a remarkable website, a robust web application, or customized web tutoring, we possess the knowledge and skill to deliver outstanding outcomes.",
+    "title1":"Tailored SaaS Development Services to Meet Your Specific Requirements",
+    "description1":"We specialize in the development of innovative and scalable SaaS solutions aimed at helping educational institutions streamline their operations and promote growth.",
+    "title2":"Improve Your Skills through Personalized Online Tutoring",
+    "description2":"Our online tutoring services are crafted to assist you in mastering web development concepts and techniques, enabling you to confidently create professional websites.",
+    "title3":"Professional Web Development Services for Your Business",
+    "description3":"We provide customized web development solutions designed to meet your business's specific needs, enabling you to establish a powerful online presence and achieve success.",
+    "learn_more":"Learn More >"
+  },
 
   "footer": {
     "company_name": "JPTEKS",
@@ -79,5 +94,9 @@
     "tutoring_description": "Our online tutoring services are crafted to assist you in mastering web development concepts and techniques, enabling you to confidently create professional websites.",
     "webdev_title": "Professional Web Development Services for Your Business",
     "webdev_description": "We provide customized web development solutions designed to meet your business's specific needs, enabling you to establish a powerful online presence and achieve success."
+  },
+  "Technology":{
+    "title":"Realizing the Potential of Educational Technology for a Promising Future",
+    "description":"At our organization, we are committed to revolutionizing the educational landscape by leveraging cutting-edge technology. Our team of experts is dedicated to providing innovative solutions that enhance the learning experience for students, educators, and lifelong learners worldwide."
   }
 }

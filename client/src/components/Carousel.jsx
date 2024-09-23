@@ -25,7 +25,7 @@ const Carousels = () => {
         {
             title: t('carousel.app_development'),
             description: t('carousel.app_development_description'),
-            buttonText: t('carousel.discover_more'),
+            buttonText: t('carousel.learn_more'),
             image: slide3,
         }
     ];
@@ -36,23 +36,29 @@ const Carousels = () => {
                 autoPlay={true} 
                 infiniteLoop={true} 
                 emulateTouch={true} 
-                interval={2000} 
+                interval={3000} 
                 showIndicators={false}  
                 showStatus={false} 
                 showThumbs={false}  
                 showArrows={false}
+                stopOnHover={true}
             >
                 {slides.map((slide, index) => (
-                    <div key={index} className='relative'>
-                        <img src={slide.image} className='w-full h-full object-cover' alt={`Carousel Image ${index}`} />
-                        <div className='absolute inset-0 flex flex-col items-start justify-center p-4 md:p-8'>
-                            <div className='max-w-lg'>
-                                <p className='text-2xl md:text-4xl font-bold text-white mb-4'>{slide.title}</p>
-                                <p className='text-lg md:text-2xl text-white mb-6'>{slide.description}</p>
+                    <div key={index} className='relative w-full '>
+                        {/* Image should be responsive */}
+                        <img src={slide.image} className='w-full h-full object-cover max-h-screen' alt={`Carousel Image ${index}`} />
+                        
+                        {/* Overlay with responsive text and button */}
+                        <div className='absolute  inset-0 flex flex-col items-start justify-center p-4 md:p-8'>
+                            <div className='max-w-lg mt-10'>
+                                <p className='text-xl sm:text-xl md:text-4xl font-bold text-white mb-4'>{slide.title}</p>
+                                <p className='text-base sm:text-md md:text-2xl text-white mb-2'>{slide.description}</p>
                             </div>
-                            <div className='flex gap-x-4'>
-                                <button className='bg-yellow-500 text-white py-2 px-4 rounded-xl cursor-pointer text-sm md:text-lg'>{slide.buttonText}</button>
-                            </div>
+                            {/* <div className='flex gap-x-4 relative  w-full  '>
+                                <button className='bg-yellow-500 text-white  p-2 sm:px-6 rounded-xl cursor-pointer text-sm sm:text-base md:text-lg'>
+                                    {slide.buttonText}
+                                </button>
+                            </div> */}
                         </div>
                     </div>
                 ))}
@@ -62,4 +68,3 @@ const Carousels = () => {
 };
 
 export default Carousels;
-

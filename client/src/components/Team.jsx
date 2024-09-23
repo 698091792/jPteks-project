@@ -5,7 +5,7 @@ import insta from '../assets/insta.png';
 import face from '../assets/face.png';
 import linkedin from '../assets/linkedin.png';
 
-function App() {
+function Team() {
   const { t } = useTranslation();
 
   const teamMembers = [
@@ -59,15 +59,15 @@ function App() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-white space-y-8 pt-16 px-4 md:px-8">
       
       {/* Our Team Section */}
-      <section className="text-center">
+      <section className="text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in">
         <h2 className="text-2xl font-bold text-gray-900 mb-8">
-          {t('our_team')}
+          {t('footer.team')}
         </h2>
         <div className="flex flex-wrap justify-center gap-8">
           
           {/* Team Member Card */}
           {teamMembers.map((member, index) => (
-            <div key={index} className="flex flex-col items-center border border-gray-300 p-6 rounded-lg shadow-md max-w-xs">
+            <div key={index} className="flex flex-col items-center border border-gray-300 p-6 rounded-lg shadow-md ">
               <img src={member.img} alt={member.name} className="w-24 h-24 rounded-full mb-4 object-cover" />
               <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
               <p className="text-sm text-gray-700">{member.title}</p>
@@ -96,14 +96,14 @@ function App() {
       </section>
       
       {/* Call to Action Button */}
-      <button className="bg-yellow-600 text-white text-xl font-bold py-4 px-8 rounded-xl hover:bg-yellow-700 focus:outline-none">
-        {t('join_team')}
+      <button className="bg-yellow-600 text-white text-xl font-bold py-4 px-8 rounded-xl hover:bg-yellow-700 focus:outline-none" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in">
+        {t('Join Team')}
       </button>
       
     </div>
   );
 }
 
-export default App;
+export default Team;
 
 

@@ -6,10 +6,10 @@ import Selection_015 from '../assets/Selection_015.png';
 import Selection_016 from '../assets/Selection_016.png';
 import Selection_017 from '../assets/Selection_017.png';
 import Selection_018 from '../assets/Selection_018.png';
-
+import { useTranslation } from 'react-i18next';
 const ImageGallery = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-
+const { t } = useTranslation();
   const images = [
     Selection_010, 
     Selection_013,
@@ -36,8 +36,8 @@ const ImageGallery = () => {
   }, [totalSlides]);
 
   return (
-    <div className="flex flex-col items-center w-full px-4 md:px-8">
-      <h2 className="text-2xl font-bold mb-4 text-center">Image Gallery</h2>
+    <section className="flex flex-col items-center w-full px-4 md:px-8 mb-10">
+      <h2 className="text-2xl font-bold mb-4 text-center">{t('navbar.gallery')}</h2>
       <div className="relative w-full h-64 md:h-96 max-w-full overflow-hidden rounded-lg shadow-lg">
         <img
           src={images[currentSlide]}
@@ -54,7 +54,7 @@ const ImageGallery = () => {
           ></span>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
