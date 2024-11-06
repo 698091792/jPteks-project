@@ -7,6 +7,7 @@ import Team from './components/Team';
 import Gallery from './components/Gallery';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import Products from './components/Products';
 import Service from './components/Service';
 import Technology from './components/Technology';
 import AOS from 'aos';
@@ -36,7 +37,7 @@ export { i18n }; // Named export for i18n
 
 export default function App() {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 20 });
   }, []);
 
   return (
@@ -48,6 +49,7 @@ export default function App() {
       <div id="about-us">
         <Solution />
       </div>
+      <Products />
       <div id="services">
         <Service />
       </div>

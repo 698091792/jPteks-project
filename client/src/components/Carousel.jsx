@@ -31,7 +31,7 @@ const Carousels = () => {
     ];
 
     return (
-        <section className='w-full h-screen'>
+        <section className='w-full h-screen '>
             <Carousel 
                 autoPlay={true} 
                 infiniteLoop={true} 

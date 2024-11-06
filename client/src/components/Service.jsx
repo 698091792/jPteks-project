@@ -4,20 +4,9 @@ import { useTranslation } from 'react-i18next'
 function Service() {
   const { t } = useTranslation();
   return (
-    <div className="min-h-screen px-4 py-8">
+    <div className="min-h-screen px-4 py-32">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="flex flex-col md:flex-row items-center justify-between mb-16 md:mb-24">
-          {/* Heading on the left side */}
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 text-center md:text-left md:w-1/2"  data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in">
-          {t('service.title')} 
-          </h1>
-          {/* Description on the right side */}
-          <p className="text-base md:text-lg text-gray-700 md:w-1/2 mt-4 md:mt-0"  data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in">
-          {t('service.description')} 
-          </p>
-        </div>
-
+        
         {/* Service Cards Section */}
         <div className="grid gap-6 md:grid-cols-3"data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in"  >
           <ServiceCard 

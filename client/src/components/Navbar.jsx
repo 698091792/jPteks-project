@@ -64,6 +64,9 @@ export default function Navbar() {
         <li className="py-2">
           <a href="#about-us" className="block w-20 hover:text-gray-700">{t('navbar.about_us')}</a>
         </li>
+        <li className="py-2">
+          <a href="#products" className="block w-20 hover:text-gray-700">{t('Products')}</a>
+        </li>
         <li className="py-2 ">
           <a href="#services" className="block  hover:text-gray-700">{t('navbar.services')}</a>
         </li>
@@ -84,12 +87,27 @@ export default function Navbar() {
                 {t('navbar.gallery')}
               </a>
               <a 
-                href="#projects" 
+                href="#Achievement" 
                 className="block px-4 py-2 text-sm hover:bg-gray-100"
                 onClick={() => setIsDropdownOpen(false)}
               >
-                {t('navbar.projects')}
+                {t('Achievement')}
               </a>
+              <a 
+                href="#Testimonies" 
+                className="block px-4 py-2 text-sm hover:bg-gray-100"
+                onClick={() => setIsDropdownOpen(false)}
+              >
+                {t('Testimonies')}
+              </a>
+              <a 
+                href="#Our Team" 
+                className="block px-4 py-2 text-sm hover:bg-gray-100"
+                onClick={() => setIsDropdownOpen(false)}
+              >
+                {t('Our Team')}
+              </a>
+              
             </div>
           )}
         </li>
