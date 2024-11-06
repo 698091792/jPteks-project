@@ -1,7 +1,7 @@
 {
   "navbar": {
     "home": "Accueil",
-    "about_us": "À Propos",
+    "about_us": "À propos de nous",
     "services": "Services",
     "more": "Plus",
     "gallery": "Galerie",
@@ -16,22 +16,41 @@
   },
   "testimonials": {
     "title": "Témoignages",
-    "quote": "Notre expérience avec Edutek a été tout simplement exceptionnelle. Leurs solutions innovantes ont considérablement amélioré notre plateforme d'apprentissage en ligne et ont eu un impact significatif sur la réussite de nos étudiants.",
-    "person_name": "M. Philbert",
-    "person_title": "Fondateur, Group Scolaire les repères"
+    "list": [
+      {
+        "quote": "Notre expérience avec Edutek a été tout simplement exceptionnelle. Leurs solutions innovantes ont grandement amélioré notre plateforme d'apprentissage en ligne et ont eu un impact significatif sur la réussite de nos étudiants.",
+        "person_name": "M. Philbert",
+        "person_title": "Fondateur, Groupe Scolaire Les Repères"
+      },
+      {
+        "quote": "Le mentorat que j'ai reçu était inestimable. J'ai tellement appris et gagné en confiance dans des domaines où j'avais des difficultés auparavant.",
+        "person_name": "Jane Smith",
+        "person_title": "Experte en marketing"
+      },
+      {
+        "quote": "Des ressources et des instructeurs incroyables. Je recommande vivement cette plateforme à quiconque cherche à booster sa carrière.",
+        "person_name": "Michael Brown",
+        "person_title": "Analyste d'affaires"
+      },
+      {
+        "quote": "La meilleure expérience d'apprentissage que j'ai jamais eue ! Les projets étaient stimulants mais gratifiants, et l'équipe était toujours là pour aider.",
+        "person_name": "Emily Davis",
+        "person_title": "Data Scientist"
+      }
+    ]
   },
   "carousel": {
     "trainings": "FORMATIONS",
-    "trainings_description": "Développez votre potentiel tech avec nos formations pratiques en création de sites web et développement d'applications, conçues pour les adolescents et les adultes afin de développer des compétences concrètes et libérer la créativité !",
+    "trainings_description": "Développez votre potentiel technologique grâce à nos formations pratiques en création de sites web et en développement d'applications, conçues pour les adolescents et les adultes afin de développer des compétences réelles et libérer la créativité !",
     "web_development": "DÉVELOPPEMENT WEB",
-    "web_development_description": "Apprenez à créer des sites web réactifs en utilisant des technologies modernes telles que HTML, CSS et JavaScript.",
+    "web_development_description": "Apprenez à créer des sites web réactifs en utilisant des technologies modernes comme HTML, CSS et JavaScript.",
     "app_development": "DÉVELOPPEMENT D'APPLICATIONS",
     "app_development_description": "Plongez dans le monde des applications mobiles avec notre formation complète en développement Android et iOS.",
     "learn_more": "En savoir plus",
     "discover_more": "Découvrir plus"
   },
   "contact_form": {
-    "contact_us": "Veuillez ne pas hésiter à nous contacter pour plus d'assistance.",
+    "contact_us": "N'hésitez pas à nous contacter pour toute assistance supplémentaire.",
     "address": "Logbessou, Douala",
     "start_project": "Commençons un projet ensemble",
     "name": "Nom*",
@@ -41,24 +60,24 @@
     "project_description": "Je souhaite une application web pour gérer ...",
     "submit": "SOUMETTRE LE PROJET"
   },
-  "solution":{
-    "title": "Faire progresser l’éducation grâce aux solutions technologiques",
-    "description": "Au sein de notre organisation, nous envisageons un avenir où l’éducation est accessible à tous, grâce à une technologie de pointe. Nous nous engageons à exploiter les dernières avancées technologiques pour créer des solutions logicielles en tant que service (SaaS), des sites Web et des applications Web innovants qui transforment le paysage de l'apprentissage et de l'enseignement. Notre équipe se consacre à la recherche continue et à la mise en œuvre de nouvelles technologies pour améliorer continuellement l'expérience éducative des étudiants, des éducateurs et des apprenants permanents du monde entier."
+  "solution": {
+    "title": "Faire avancer l'éducation avec des solutions technologiques",
+    "description": "Dans notre organisation, nous envisageons un avenir où l'éducation est accessible à tous, renforcée par la technologie de pointe. Nous nous engageons à exploiter les dernières avancées technologiques pour créer des solutions innovantes de type software-as-a-service (SaaS), des sites web et des applications web qui transforment l'apprentissage et l'enseignement. Notre équipe est dévouée à la recherche continue et à la mise en œuvre de nouvelles technologies pour améliorer sans cesse l'expérience éducative des étudiants, des enseignants et des apprenants tout au long de la vie à l'échelle mondiale."
   },
-  "service":{
-    "title": "Réalisez votre potentiel avec nos services de développement Web professionnels",
-    "description": "Dans notre entreprise, nous fournissons des services de développement Web, de développement SaaS et de tutorat Web de haute qualité. Notre équipe de professionnels s’engage à vous aider à atteindre vos objectifs et à prospérer dans le domaine numérique. Que vous ayez besoin d'un site Web remarquable, d'une application Web robuste ou d'un tutorat Web personnalisé, nous possédons les connaissances et les compétences nécessaires pour fournir des résultats exceptionnels.",
-    "title1":"Services de développement SaaS sur mesure pour répondre à vos besoins spécifiques",
-    "description1":"Nous nous spécialisons dans le développement de solutions SaaS innovantes et évolutives visant à aider les établissements éducatifs à rationaliser leurs opérations et à optimiser leurs processus de formation. Nos solutions SaaS sont conçues pour répondre aux besoins spécifiques de chaque établissement, et nous nous engageons à fournir des solutions fiables et performantes.",
-    "title3":"Développement d'applications web robustes et performantes",
-    "description3":"Nous proposons des services de développement d'applications web robustes et performantes, conçus pour répondre aux besoins spécifiques de chaque entreprise. Nos solutions web sont conçues pour répondre aux exigences de la vie quotidienne des utilisateurs, et nous nous engageons à fournir des solutions fiables et performantes.",
-    "title2":"Tutorat web personnalisé pour les étudiants",
-    "description2":"Nous offrons un service de tutorat web personnalisé pour les étudiants. Nos tutorats sont conçus pour répondre aux exigences spécifiques de chaque étudiant, et nous nous engageons à fournir des solutions fiables et performantes.",
-    "learn_more":"En savoir plus >"
+  "service": {
+    "title": "Réalisez votre potentiel avec nos services professionnels de développement web",
+    "description": "Dans notre entreprise, nous fournissons des services de développement web, de développement SaaS et de tutorat web de haute qualité. Notre équipe de professionnels est engagée à vous aider à atteindre vos objectifs et à prospérer dans le monde numérique. Que vous ayez besoin d'un site web remarquable, d'une application web robuste ou d'un tutorat web personnalisé, nous avons les connaissances et les compétences pour offrir des résultats exceptionnels.",
+    "title1": "Services de développement SaaS sur mesure pour répondre à vos besoins spécifiques",
+    "description1": "Nous sommes spécialisés dans le développement de solutions SaaS innovantes et évolutives visant à aider les institutions éducatives à rationaliser leurs opérations et à favoriser leur croissance.",
+    "title2": "Améliorez vos compétences grâce à un tutorat en ligne personnalisé",
+    "description2": "Nos services de tutorat en ligne sont conçus pour vous aider à maîtriser les concepts et techniques du développement web, vous permettant de créer en toute confiance des sites web professionnels.",
+    "title3": "Services professionnels de développement web pour votre entreprise",
+    "description3": "Nous fournissons des solutions de développement web personnalisées, conçues pour répondre aux besoins spécifiques de votre entreprise, vous permettant d'établir une présence en ligne puissante et d'atteindre le succès.",
+    "learn_more": "En savoir plus >"
   },
   "footer": {
     "company_name": "JPTEKS",
-    "slogan": "IMPACT - INNOVER - CROÎTRE",
+    "slogan": "IMPACTER - INNOVER - CROÎTRE",
     "email": "contact@jpteks.cm",
     "address": "Logbessou, Douala",
     "quick_links_title": "LIENS RAPIDES",
@@ -71,30 +90,31 @@
     "gallery": "Galerie",
     "contact_us": "Contactez-nous",
     "subscribe_title": "Veuillez vous abonner",
-    "subscribe_description": "Rejoignez notre newsletter pour rester informé des nouvelles fonctionnalités et versions.",
-    "email_placeholder": "votre e-mail",
+    "subscribe_description": "Rejoignez notre newsletter pour rester informé des nouvelles fonctionnalités et des nouvelles sorties.",
+    "email_placeholder": "votre email",
     "subscribe_button": "S'abonner",
-    "subscribe_notice": "En vous abonnant, vous acceptez notre politique de confidentialité et donnez votre consentement pour recevoir des mises à jour de notre entreprise.",
+    "subscribe_notice": "En vous abonnant, vous reconnaissez votre accord avec notre politique de confidentialité et consentez à recevoir des mises à jour de notre entreprise.",
     "rights_reserved": "Tous droits réservés"
   },
   "gallery": {
-    "title": "Galerie d'Images"
+    "title": "Galerie d'images"
   },
+
   "app": {
     "header": "Réalisez votre potentiel avec nos services professionnels de développement web",
-    "description": "Dans notre entreprise, nous fournissons des services de développement web, de développement SaaS et de tutorat web de haute qualité. Notre équipe de professionnels est déterminée à vous aider à atteindre vos objectifs et à prospérer dans le domaine numérique. Que vous ayez besoin d'un site web remarquable, d'une application web robuste ou d'un tutorat web personnalisé, nous possédons les connaissances et les compétences nécessaires pour offrir des résultats exceptionnels.",
+    "description": "Dans notre entreprise, nous fournissons des services de développement web, de développement SaaS et de tutorat web de haute qualité. Notre équipe de professionnels est engagée à vous aider à atteindre vos objectifs et à prospérer dans le monde numérique. Que vous ayez besoin d'un site web remarquable, d'une application web robuste ou d'un tutorat web personnalisé, nous avons les connaissances et les compétences pour offrir des résultats exceptionnels.",
     "learn_more": "En savoir plus >"
   },
   "services": {
-    "saas_title": "Services de développement SaaS adaptés à vos besoins spécifiques",
-    "saas_description": "Nous nous spécialisons dans le développement de solutions SaaS innovantes et évolutives visant à aider les établissements éducatifs à rationaliser leurs opérations et à favoriser leur croissance.",
+    "saas_title": "Services de développement SaaS sur mesure pour répondre à vos besoins spécifiques",
+    "saas_description": "Nous sommes spécialisés dans le développement de solutions SaaS innovantes et évolutives visant à aider les institutions éducatives à rationaliser leurs opérations et à favoriser leur croissance.",
     "tutoring_title": "Améliorez vos compétences grâce à un tutorat en ligne personnalisé",
-    "tutoring_description": "Nos services de tutorat en ligne sont conçus pour vous aider à maîtriser les concepts et techniques de développement web, vous permettant ainsi de créer des sites web professionnels en toute confiance.",
-    "webdev_title": "Services de développement web professionnels pour votre entreprise",
-    "webdev_description": "Nous proposons des solutions de développement web personnalisées conçues pour répondre aux besoins spécifiques de votre entreprise, vous permettant d'établir une présence en ligne puissante et de réussir."
+    "tutoring_description": "Nos services de tutorat en ligne sont conçus pour vous aider à maîtriser les concepts et techniques du développement web, vous permettant de créer en toute confiance des sites web professionnels.",
+    "webdev_title": "Services professionnels de développement web pour votre entreprise",
+    "webdev_description": "Nous fournissons des solutions de développement web personnalisées, conçues pour répondre aux besoins spécifiques de votre entreprise, vous permettant d'établir une présence en ligne puissante et d'atteindre le succès."
   },
-  "Technology":{
-    "title":"Réaliser le potentiel de la technologie éducative pour un avenir prometteur",
-    "description":"Nos services offrent une efficacité, une convivialité et une rentabilité accrues, responsabilisant ainsi les éducateurs et les apprenants."
+  "Technology": {
+    "title": "Réaliser le potentiel de la technologie éducative pour un avenir prometteur",
+    "description": "Dans notre organisation, nous nous engageons à révolutionner le paysage éducatif en exploitant la technologie de pointe. Notre équipe d'experts est dédiée à fournir des solutions innovantes qui améliorent l'expérience d'apprentissage des étudiants, des enseignants et des apprenants tout au long de la vie dans le monde entier."
   }
 }

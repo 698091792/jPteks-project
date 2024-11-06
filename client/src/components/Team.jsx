@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import IMG_20220617_133432 from '../assets/IMG_20220617_133432.jpg';
+import D from '../assets/D.jpg';
 import insta from '../assets/insta.png';
 import face from '../assets/face.png';
 import linkedin from '../assets/linkedin.png';
@@ -24,7 +24,7 @@ function Team() {
       name: "AWONO BILOGUE",
       title: "Co-Founder",
       email: "juniorbilogue@gmail.com",
-      img: IMG_20220617_133432,
+      img: D,
       social: {
         linkedin: "https://www.linkedin.com/in/juniorbilogue",
         facebook: "https://www.facebook.com/juniorbilogue",

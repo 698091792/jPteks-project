@@ -1,7 +1,7 @@
 import React from 'react';
-import slide1 from '../assets/w.jpg'; 
-import slide2 from '../assets/r.jpg'; 
-import slide3 from '../assets/a.jpg'; 
+import slide1 from '../assets/w.png'; 
+import slide2 from '../assets/r.png'; 
+import slide3 from '../assets/a.png'; 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useTranslation } from 'react-i18next';
