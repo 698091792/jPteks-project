@@ -2,21 +2,22 @@ import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Carousels from './components/Carousel';
 import Solution from './components/Solution';
-import Accomplishments from './components/Accomplishments';
 import Team from './components/Team';
 import Gallery from './components/Gallery';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import Products from './components/Products';
 import Service from './components/Service';
-import Technology from './components/Technology';
+import FAQ from './components/FAQ';
 import AOS from 'aos';
+import './App.css'
 import 'aos/dist/aos.css';
 import './i18n'; // Ensure that i18n is properly set up for translations
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import enTranslations from './locales/en.json';
 import frTranslations from './locales/fr.json';
+import { Product } from './components/Products';
+
 
 // i18n initialization
 i18n
@@ -37,11 +38,14 @@ export { i18n }; // Named export for i18n
 
 export default function App() {
   useEffect(() => {
-    AOS.init({ duration: 20 });
+    AOS.init({ 
+      duration: 800,
+      once: false
+      });
   }, []);
 
   return (
-    <div className='w-[100%]'>
+    <div >
       <Navbar />
       <div id="home">
         <Carousels />
@@ -49,15 +53,21 @@ export default function App() {
       <div id="about-us">
         <Solution />
       </div>
-      <Products />
+      <div id="products">
+        <Product/>
+      </div>
       <div id="services">
         <Service />
       </div>
-      <Technology />
-      <Accomplishments />
+    
+     
+      
       <Team />
       <div id="gallery">
         <Gallery />
+      </div>
+      <div id="faq">
+        <FAQ/>
       </div>
       <ContactForm />
       <Footer />

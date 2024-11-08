@@ -10,7 +10,7 @@ import B from '../assets/B.jpg';
 import C from '../assets/C.jpg';
 import E from '../assets/E.jpg';
 
-function App() {
+export function Accomplishments() {
   const { t } = useTranslation();
 
   // Array of imported images for each testimonial profile
@@ -88,7 +88,7 @@ function App() {
   );
 }
 
-export default App;
+
 
 
 

@@ -51,7 +51,8 @@ const ContactForm = () => {
           <h2 className="text-xl font-semibold text-blue-900 mb-4">
             {t('contact_form.start_project')}
           </h2>
-          <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <h3>https:formsfkdhd</h3>
+          {/* <form className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input
               type="text"
               placeholder={t('contact_form.name')}
@@ -78,7 +79,7 @@ const ContactForm = () => {
             >
               {t('contact_form.submit')}
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>

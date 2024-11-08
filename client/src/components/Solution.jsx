@@ -7,23 +7,23 @@ function Solution() {
     <div className='-my-24'>
       {/* Mission and Values Section */}
       <section className="py-16 bg-gray-900 ">
-        <div className="container mx-auto px-4 ">
+        <div className="container mx-auto px-4 mt-10 ">
           <h2 className="text-3xl font-bold text-center mb-6 text-white">Our Mission & Values</h2>
           <p className="text-center text-lg mb-8 max-w-2xl mx-auto text-white">
             We understand that education is one of the critical challenges outlined in the United Nation Sustainable Development Goal(SDGs). By harnessing technology, we are dedicated to overcoming the lack of access to education and delivering inclusive learning opportunities that can bridge the education gap in Africa.
           </p>
           <div className="flex flex-wrap justify-center gap-8 ">
-            <div className="w-72 text-center p-6 bg-white shadow-md rounded-md border border-gray-300 transition-transform transform hover:scale-105">
+            <div className="w-72 text-center p-6 bg-gradient-to-r from-blue-100 text-white to-blue-900 shadow-md rounded-lg  transition-transform transform hover:scale-105">
             <img src={sa} alt="Impact icon" className="w-16 h-16 md:w-20 md:h-20 mx-20" />
               <h3 className="text-xl font-semibold">Impact</h3>
               <p>We aim to impact the lives of Africa students by equipping them with valuable IT skills and fostering a love for learning through technology.</p>
             </div>
-            <div className="w-72 text-center p-6 bg-white shadow-md rounded-md  border border-gray-300 transition-transform transform hover:scale-105">
+            <div className="w-72 text-center p-6 bg-gradient-to-r from-blue-100 text-white to-blue-900 shadow-md rounded-lg transition-transform transform hover:scale-105">
             <img src={sa} alt="Innovate icon" className="w-16 h-16 md:w-20 md:h-20 mx-20" />
               <h3 className="text-xl font-semibold">Innovate</h3>
               <p>Through innovative solutions, we create tools and resources that empower teachers, students, and communities.</p>
             </div>
-            <div className="w-72 text-center p-6 bg-white shadow-md rounded-md border border-gray-300 transition-transform transform hover:scale-105">
+            <div className="w-72 text-center p-6 bg-gradient-to-r from-blue-100 text-white to-blue-900 shadow-md rounded-lg transition-transform transform hover:scale-105">
             <img src={sa} alt="Grow icon" className="w-16 h-16 md:w-20 md:h-20 mx-20" />
               <h3 className="text-xl font-semibold">Grow</h3>
               <p>As we impact lives and innovate, we grow together, building a brighter future for Africa with education as its foundation.</p>

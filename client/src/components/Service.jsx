@@ -8,19 +8,28 @@ function Service() {
       <div className="max-w-7xl mx-auto">
         
         {/* Service Cards Section */}
-        <div className="grid gap-6 md:grid-cols-3"data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in"  >
-          <ServiceCard 
+        <div className="grid gap-6 md:grid-cols-3 "  >
+         <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
+           <ServiceCard 
             title={t('service.title1')}
             description={t('service.description1')}
           />
-          <ServiceCard 
+         </div>
+         <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="600">
+         <ServiceCard 
             title={t('service.title2')}
             description={t('service.description2')}
           />
-          <ServiceCard 
+         </div>
+         <div data-aos="fade-up" data-aos-delay="1100" data-aos-duration="600">
+         <ServiceCard 
             title={t('service.title3')}
             description={t('service.description3')}
           />
+         </div>
+         
+          
+        
         </div>
       </div>
     </div>
@@ -30,7 +39,7 @@ function Service() {
 function ServiceCard({ title, description }) {
   const { t } = useTranslation();
   return (
-    <div className="border border-gray-300 rounded-2xl p-6 shadow-lg transition-transform transform hover:scale-105">
+    <div className="border h-[100%] border-gray-300 rounded-2xl p-6 shadow-lg transition-transform transform hover:scale-105">
       <div className="flex items-center justify-center mb-4">
         <img src={sa} alt="Service icon" className="w-16 h-16 md:w-20 md:h-20" />
       </div>
